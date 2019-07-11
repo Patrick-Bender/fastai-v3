@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/rsd7fnnu8jxk7gw/final.pth?dl=1'
-export_file_name = 'final.pth'
+export_file_url = 'https://www.dropbox.com/s/woe54ha7fw6vuis/export.pkl?dl=1'
+export_file_name = 'export.pk1'
 
 classes = ['shea', 'notShea']
 path = Path(__file__).parent
